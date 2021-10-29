@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.componentesbasicos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icn_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComponentesBasicos">
+
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.ComponentesBasicos.NoActionBar" />
+
+        <activity
+            android:name=".EditClass"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Array_List"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Autocomplete"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Spinners"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Radio_Button"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".OverflowMenu"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Popup_Menu"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Long_Press"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".BackgroundImage"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".tabbed_activity.Tabbed_activity"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".List_View"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Array_Adapter"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".gridView.Grid_View"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity
+            android:name=".Som"
+            android:parentActivityName=".ToggleButton" />
+
+        <activity android:name=".ToggleButton"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

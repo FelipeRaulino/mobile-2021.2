@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_editText"
+            android:title="@string/menu_editText" />
+        <item
+            android:id="@+id/nav_arrayList"
+            android:title="@string/menu_arrayList" />
+        <item
+            android:id="@+id/nav_autoComplete"
+            android:title="@string/menu_autoComplete" />
+        <item
+            android:id="@+id/nav_spinners"
+            android:title="@string/menu_spinners" />
+
+        <item
+            android:id="@+id/nav_radioButtons"
+            android:title="@string/menu_radioButtons" />
+
+        <item
+            android:id="@+id/nav_optionsMenu"
+            android:title="@string/menu_overflowMenu" />
+
+        <item
+            android:id="@+id/nav_popupMenu"
+            android:title="@string/menu_popupMenu" />
+
+        <item
+            android:id="@+id/nav_longPress"
+            android:title="@string/menu_longPress" />
+
+        <item
+            android:id="@+id/nav_backgroundImage"
+            android:title="@string/menu_backgroundImage" />
+
+        <item
+            android:id="@+id/nav_activitiesMultipleTabs"
+            android:title="@string/menu_multipleTabs" />
+
+        <item
+            android:id="@+id/nav_listView"
+            android:title="@string/menu_listView" />
+
+        <item
+            android:id="@+id/nav_arrayAdapter"
+            android:title="@string/menu_arrayAdapter" />
+
+        <item
+            android:id="@+id/nav_gridView"
+            android:title="@string/menu_gridView" />
+
+        <item
+            android:id="@+id/nav_som"
+            android:title="@string/menu_som" />
+    </group>
+</menu>
