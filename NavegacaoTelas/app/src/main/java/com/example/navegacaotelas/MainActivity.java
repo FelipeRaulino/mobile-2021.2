@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         listViewFilmes = findViewById(R.id.listViewFilmes);
         listViewFilmes.setAdapter(adapter);
-        listViewFilmes.setSelector(android.R.color.holo_blue_light);
+        listViewFilmes.setSelector(R.color.purple_700);
 
         listViewFilmes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
