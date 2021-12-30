@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961058085245",
+    "project_id": "projetocrudfilmes",
+    "storage_bucket": "projetocrudfilmes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961058085245:android:1a110028b62b5aac621414",
+        "android_client_info": {
+          "package_name": "com.example.crudfilmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961058085245-8hqdjfnetrphvgdgqnv4pb4vbajstihv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJeIZpHwbfaFegFxiv5a3e5vLJkJY45gA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961058085245-8hqdjfnetrphvgdgqnv4pb4vbajstihv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

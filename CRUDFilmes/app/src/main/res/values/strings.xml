@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CRUDFilmes</string>
+    <string name="edtText_nome">Título</string>
+    <string name="edtText_categoria">Categoria</string>
+    <string name="edtText_dataLancamento">Data de Lançamento</string>
+    <string name="edtText_diretor">Diretor</string>
+</resources>
