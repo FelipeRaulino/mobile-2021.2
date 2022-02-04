@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.projetofinalitech.MainActivity;
+import com.example.projetofinalitech.Perfil;
 import com.example.projetofinalitech.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -72,9 +73,9 @@ public class DecisaoAgendamento extends AppCompatActivity {
                         break;
 
                     case R.id.page_2:
-//                        finish();
-//                        startActivity(new Intent(DecisaoAgendamento.this, Me.class));
-//                        break;
+                        finish();
+                        startActivity(new Intent(DecisaoAgendamento.this, Perfil.class));
+                        break;
 
                     default:
                         break;

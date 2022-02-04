@@ -9,16 +9,17 @@
         <entry key="app/src/main/res/drawable/decisao_agendamento_item.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/drawable/ic_baseline_calendar_month_50.xml" value="0.2838541666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_100.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/drawable/input_custom.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/drawable/produto_categoria.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/drawable/produtos_categoria.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/layout/activity_agendamento.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_decisao_agendamento.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login_test.xml" value="0.1390625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18070652173913043" />
         <entry key="app/src/main/res/layout/activity_meus_agendamentos.xml" value="0.18297101449275363" />
         <entry key="app/src/main/res/layout/activity_meus_pedidos.xml" value="0.20878623188405798" />
-        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_perfil.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_produto_individual.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_produtos.xml" value="0.1390625" />
         <entry key="app/src/main/res/layout/agendamento_item.xml" value="0.33" />

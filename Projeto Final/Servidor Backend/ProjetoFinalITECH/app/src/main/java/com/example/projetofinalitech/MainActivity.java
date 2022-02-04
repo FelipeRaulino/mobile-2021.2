@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -24,6 +25,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView txtView_nomeUsuario;
     private LinearLayout agendamentoContainer, categoria_smartphone;
     private Button button_meusPedidos;
+    private BottomNavigationView bottom_navigation;
 
     private DocumentReference documentReference;
     private FirebaseFirestore fStore;
@@ -64,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         agendamentoContainer = findViewById(R.id.agendamentoContainer);
         categoria_smartphone = findViewById(R.id.categoria_smartphone);
         button_meusPedidos = findViewById(R.id.button_meusPedidos);
+        bottom_navigation = findViewById(R.id.bottom_navigation);
 
         StorageReference profileRef = storageReference.child("users/"+fAuth.getCurrentUser().getUid()+"/profile.jpg");
         profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -111,6 +116,29 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 startActivity(new Intent(getApplicationContext(), MeusPedidos.class));
+            }
+        });
+
+        bottom_navigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+                switch (item.getItemId()){
+                    case R.id.page_1:
+                        finish();
+                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        break;
+
+                    case R.id.page_2:
+                        finish();
+                        startActivity(new Intent(MainActivity.this, Perfil.class));
+                        break;
+
+                    default:
+                        break;
+                }
+
+                return false;
             }
         });
 
