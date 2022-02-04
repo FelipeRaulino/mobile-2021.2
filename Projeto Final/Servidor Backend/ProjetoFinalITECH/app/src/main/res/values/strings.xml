@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">ProjetoFinalITECH</string>
+
+    <string name="text_label_1" translatable="false">Home</string>
+    <string name="text_label_2" translatable="false">Perfil</string>
+
+    --------------------------------------------------------------------------
+
+    <string-array name="tipos_dispositivo">
+        <item>Smartphone</item>
+        <item>Tablet</item>
+        <item>Notebook</item>
+    </string-array>
+
+</resources>
